@@ -1,0 +1,4 @@
+Min Replicas: 2
+Max Replicas: 5
+NAME        REFERENCE              TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+flask-hpa   Deployment/flask-app   cpu: <unknown>/50%   2         5         2          81s
